@@ -36,7 +36,7 @@ which should contain libvideokit.so (unless you have changed the name of library
 FFmpeg by itself is licensed under LGPL. FFmpeg folder contains **unchanged** code of FFmpeg of version 2.8.4, all changes 
 is done in files inside JNI/app/jni folder. Code that was written by me is licensed under LGPL too, so you are free to use it.
 
-**Important note: libx264 which is also distributed inside FFmpeg library if licensed under GPL. If you will use this development 
+**Important note: libx264, which is also distributed inside FFmpeg folder, is licensed under GPL. If you will use this development 
 kit in order to build FFmpeg with any of GPL libraries (as libx264 for example) end product will be licensed under GPL. 
 If none of GPL libraries were used: product is licensed under LGPL too. Read FFmpeg license to find out more: 
 [Legal](https://ffmpeg.org/legal.html)**
