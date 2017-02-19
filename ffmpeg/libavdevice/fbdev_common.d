@@ -1,6 +1,6 @@
-libavdevice/fbdev_common.o: libavdevice/fbdev_common.c libavdevice/fbdev_common.h \
- libavutil/pixfmt.h libavutil/avconfig.h libavutil/version.h \
- libavutil/macros.h libavutil/old_pix_fmts.h libavutil/common.h \
+libavdevice/fbdev_common.o: libavdevice/fbdev_common.c \
+ libavdevice/fbdev_common.h libavutil/pixfmt.h libavutil/avconfig.h \
+ libavutil/version.h libavutil/macros.h libavutil/common.h \
  libavutil/attributes.h config.h libavutil/intmath.h \
  libavutil/x86/intmath.h libavutil/common.h libavutil/mem.h \
  libavutil/error.h libavutil/avutil.h libavutil/rational.h \
@@ -14,4 +14,4 @@ libavdevice/fbdev_common.o: libavdevice/fbdev_common.c libavdevice/fbdev_common.
  libavcodec/avcodec.h libavutil/samplefmt.h libavutil/avutil.h \
  libavutil/buffer.h libavutil/channel_layout.h libavutil/frame.h \
  libavutil/buffer.h libavutil/rational.h libavcodec/version.h \
- libavcodec/old_codec_ids.h libavformat/avio.h libavformat/version.h
+ libavformat/avio.h libavformat/version.h

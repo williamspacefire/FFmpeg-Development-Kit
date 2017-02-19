@@ -1,9 +1,9 @@
 #!/bin/bash
 SYSROOT=$NDK/platforms/android-14/arch-mips/
-TOOLCHAIN=$NDK/toolchains/mipsel-linux-android-4.9/prebuilt/linux-x86_64
+TOOLCHAIN=$NDK/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64
 function build_one
 {
-./configure --prefix=$PREFIX $COMMON $CONFIGURATION --cross-prefix=$TOOLCHAIN/bin/mipsel-linux-android- --target-os=linux --arch=mips --enable-cross-compile --sysroot=$SYSROOT --extra-cflags="-Os -fpic $ADDI_CFLAGS" --extra-ldflags="$ADDI_LDFLAGS"
+./configure --prefix=$PREFIX $COMMON $CONFIGURATION --cross-prefix=$TOOLCHAIN/bin/mipsel-linux-android- --target-os=linux --arch=mips --sysroot=$SYSROOT --extra-cflags="-Os -fpic $ADDI_CFLAGS" --extra-ldflags="$ADDI_LDFLAGS"
 
 make clean
 make -j2

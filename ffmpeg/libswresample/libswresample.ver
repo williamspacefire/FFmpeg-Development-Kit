@@ -1,4 +1,7 @@
-LIBSWRESAMPLE_1 {
-        global: swr_*; swresample_*;
-        local: *;
+LIBSWRESAMPLE_2 {
+    global:
+        swr_*;
+        swresample_*;
+    local:
+        *;
 };

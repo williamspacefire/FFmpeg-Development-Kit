@@ -1,4 +1,6 @@
-LIBAVUTIL_54 {
-        global: av*;
-        local: *;
+LIBAVUTIL_55 {
+    global:
+        av*;
+    local:
+        *;
 };

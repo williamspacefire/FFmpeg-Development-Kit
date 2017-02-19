@@ -1,6 +1,6 @@
 #!/bin/bash
 SYSROOT=$NDK/platforms/android-14/arch-arm/
-TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64
+TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64
 function build_one
 {
 ./configure --prefix=$PREFIX $COMMON $CONFIGURATION --cross-prefix=$TOOLCHAIN/bin/arm-linux-androideabi- --target-os=linux --arch=arm --enable-cross-compile --sysroot=$SYSROOT --extra-cflags="-Os -fpic -marm $ADDI_CFLAGS" --extra-ldflags="$ADDI_LDFLAGS"

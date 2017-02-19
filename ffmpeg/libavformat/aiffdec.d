@@ -8,13 +8,13 @@ libavformat/aiffdec.o: libavformat/aiffdec.c libavutil/intreadwrite.h \
  libavutil/common.h libavutil/intmath.h libavutil/x86/intmath.h \
  libavutil/mem.h libavutil/error.h libavutil/internal.h libavutil/timer.h \
  libavutil/log.h libavutil/x86/timer.h libavutil/cpu.h libavutil/dict.h \
- libavutil/pixfmt.h libavutil/old_pix_fmts.h libavutil/x86/emms.h \
- libavutil/cpu.h libavutil/libm.h libavutil/mathematics.h \
- libavutil/avutil.h libavutil/buffer.h libavutil/channel_layout.h \
- libavutil/frame.h libavutil/buffer.h libavutil/samplefmt.h \
- libavutil/log.h libavutil/pixfmt.h libavutil/rational.h \
- libavcodec/version.h libavutil/version.h libavcodec/old_codec_ids.h \
+ libavutil/pixfmt.h libavutil/x86/emms.h libavutil/cpu.h libavutil/libm.h \
+ libavutil/mathematics.h libavutil/avutil.h libavutil/buffer.h \
+ libavutil/channel_layout.h libavutil/frame.h libavutil/buffer.h \
+ libavutil/samplefmt.h libavutil/log.h libavutil/pixfmt.h \
+ libavutil/rational.h libavcodec/version.h libavutil/version.h \
  libavformat/avio.h libavutil/common.h libavformat/version.h \
- libavformat/internal.h libavformat/os_support.h libavformat/pcm.h \
- libavformat/aiff.h libavformat/isom.h libavformat/dv.h \
- libavformat/id3v2.h libavformat/metadata.h libavformat/mov_chan.h
+ libavformat/internal.h libavutil/bprint.h libavutil/avstring.h \
+ libavformat/os_support.h libavformat/pcm.h libavformat/aiff.h \
+ libavformat/isom.h libavformat/dv.h libavformat/id3v2.h \
+ libavformat/metadata.h libavformat/mov_chan.h

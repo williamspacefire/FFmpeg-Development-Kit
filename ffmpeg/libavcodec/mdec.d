@@ -1,18 +1,19 @@
-libavcodec/mdec.o: libavcodec/mdec.c libavcodec/avcodec.h libavutil/samplefmt.h \
- libavutil/avutil.h libavutil/common.h libavutil/attributes.h \
- libavutil/version.h libavutil/macros.h libavutil/avconfig.h config.h \
- libavutil/intmath.h libavutil/x86/intmath.h libavutil/mem.h \
- libavutil/error.h libavutil/internal.h libavutil/timer.h libavutil/log.h \
+libavcodec/mdec.o: libavcodec/mdec.c libavcodec/avcodec.h \
+ libavutil/samplefmt.h libavutil/avutil.h libavutil/common.h \
+ libavutil/attributes.h libavutil/macros.h libavutil/version.h \
+ libavutil/avconfig.h config.h libavutil/intmath.h \
+ libavutil/x86/intmath.h libavutil/mem.h libavutil/error.h \
+ libavutil/internal.h libavutil/timer.h libavutil/log.h \
  libavutil/x86/timer.h libavutil/cpu.h libavutil/dict.h \
- libavutil/pixfmt.h libavutil/old_pix_fmts.h libavutil/x86/emms.h \
- libavutil/attributes.h libavutil/cpu.h libavutil/libm.h \
- libavutil/intfloat.h libavutil/rational.h libavutil/mathematics.h \
- libavutil/avutil.h libavutil/buffer.h libavutil/channel_layout.h \
- libavutil/dict.h libavutil/frame.h libavutil/buffer.h \
- libavutil/samplefmt.h libavutil/log.h libavutil/pixfmt.h \
- libavutil/rational.h libavcodec/version.h libavutil/version.h \
- libavcodec/old_codec_ids.h libavcodec/blockdsp.h libavcodec/bswapdsp.h \
- libavcodec/idctdsp.h libavcodec/mpegvideo.h \
+ libavutil/pixfmt.h libavutil/x86/emms.h libavutil/attributes.h \
+ libavutil/cpu.h libavutil/libm.h libavutil/intfloat.h \
+ libavutil/mathematics.h libavutil/rational.h libavutil/avutil.h \
+ libavutil/buffer.h libavutil/channel_layout.h libavutil/dict.h \
+ libavutil/frame.h libavutil/buffer.h libavutil/samplefmt.h \
+ libavutil/log.h libavutil/pixfmt.h libavutil/rational.h \
+ libavcodec/version.h libavutil/version.h libavcodec/blockdsp.h \
+ libavcodec/bswapdsp.h libavcodec/idctdsp.h libavcodec/mpeg12.h \
+ libavcodec/mpeg12vlc.h libavcodec/vlc.h libavcodec/mpegvideo.h \
  libavcodec/error_resilience.h libavcodec/me_cmp.h libavcodec/thread.h \
  libavcodec/fdctdsp.h libavcodec/get_bits.h libavutil/common.h \
  libavutil/intreadwrite.h libavutil/bswap.h libavutil/x86/bswap.h \
@@ -25,4 +26,4 @@ libavcodec/mdec.o: libavcodec/mdec.c libavcodec/avcodec.h libavutil/samplefmt.h 
  libavcodec/put_bits.h libavcodec/ratecontrol.h libavutil/eval.h \
  libavcodec/parser.h libavcodec/mpegutils.h libavcodec/mpeg12data.h \
  libavcodec/rl.h libavcodec/videodsp.h libavutil/opt.h \
- libavutil/timecode.h libavcodec/mpeg12.h libavcodec/mpeg12vlc.h
+ libavutil/timecode.h
